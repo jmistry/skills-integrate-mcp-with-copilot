@@ -57,6 +57,30 @@ section h3 {
   color: #1a237e;
 }
 
+/* Activity controls styles */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#activity-controls input[type="text"],
+#activity-controls select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+#activity-controls input[type="text"] {
+  flex: 2 1 180px;
+}
+
+#activity-controls select {
+  flex: 1 1 120px;
+}
+
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
